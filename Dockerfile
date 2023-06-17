@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 COPY docker/entrypoint.bash /entrypoint.bash
 COPY installer.py /home/installer.py
 RUN apt-get update
